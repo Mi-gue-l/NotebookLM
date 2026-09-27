@@ -12,18 +12,6 @@ a métrica principal não é acurácia, e sim **recall**, **precisão** e **F1**
 - Ajuste do limiar de decisão pelo melhor F1 na curva de precisão-recall.
 - Explicação das previsões com **SHAP**.
 
-## Resultados (classe fraude)
-
-| Modelo               | Precisão | Recall | F1 |
-|-----------------------|----------|--------|----|
-| Regressão Logística   | [x]      | [x]    | [x]|
-| Random Forest         | [x]      | [x]    | [x]|
-| XGBoost               | [x]      | [x]    | [x]|
-
-Limiar escolhido: **[x]**
-
-## Diferenças em relação à Expert
-[preencher]
 
 ## Ferramentas
 pandas, numpy, scikit-learn, xgboost, shap, matplotlib, seaborn
